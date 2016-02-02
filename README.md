@@ -1,2 +1,5 @@
 # suggest-a-caption
-A simple caption suggestion app for my photography website
+A minimal caption suggestion app for my photography website: behnum.com
+
+## Under Development
+Suggest-a-caption is currently under development. Stay tuned.

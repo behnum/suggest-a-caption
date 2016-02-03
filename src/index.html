@@ -1,37 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
 
-    <meta charset="utf-8">
-    <meta name="description"
-      content="Suggest a caption and see that attached to a photograph.">
-    <meta name="author" content="Behnam Baharmand @baharmand">
-    <meta name="keywords" content="Photography, quote, caption, quotation">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
 
-    <link rel="stylesheet" href="css/vendor/normalize.css">
-    <link rel="stylesheet" href="css/vendor/skeleton.css">
+  <meta charset="utf-8">
+  <meta name="description" content="Suggest a caption and see that attached to a photograph.">
+  <meta name="author" content="Behnam Baharmand @baharmand">
+  <meta name="keywords" content="Photography, quote, caption, quotation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="css/vendor/normalize.css">
+  <link rel="stylesheet" href="css/vendor/skeleton.css">
 
-    <title>Suggest a Caption | BehnUm Photography</title>
-  </head>
-  <body>
+  <link rel="icon" type="image/png" href="img/favicon.png">
 
-    <div class="container">
-      <div class="row">
-        <div class="one-half column" style="margin-top: 25%">
-          <h4>Suggest a Caption</h4>
-          <p>Welcome to Suggest-a-caption. The source code is available at:
-            <a href="https://github.com/behnum/suggest-a-caption">Github</a>.</p>
-        </div>
+  <title>Suggest a Caption | BehnUm Photography</title>
+
+  <link rel="stylesheet" href="css/style.css" charset="utf-8">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="eight columns" style="margin-top: 10%;">
+        <h3>BehnUm Photography</h3>
+        <p>Welcome to Suggest-a-caption.
+          <br>Feel free to submit your favorite quote, caption or feedback!</p>
+        <form action="post">
+          <span>
+            <input class="gate" id="name" type="text" placeholder="Your name (Optional)" />
+            <label for="name">Your Name</label>
+          </span>
+
+
+          <span>
+            <input class="gate" id="contact-info" type="text" placeholder="Email / Instagram ID (Optional)" />
+            <label for="contact-info">Email/Instagram ID</label>
+          </span>
+
+          <span>
+          <input class="gate" id="caption" type="text" placeholder="Caption or feedback" />
+          <label for="caption">Caption/Feedback *</label>
+        </span>
+
+          <button class="submit">Submit</button>
+        </form>
       </div>
     </div>
+  </div>
 
   <script src="js/vendor/underscore-min.js"></script>
   <script src="js/vendor/jquery-2.2.0.min.js"></script>
   <script src="js/vendor/backbone-min.js"></script>
+  <script src="js/vendor/prefixfree.min.js"></script>
   <script src="js/main.js"></script>
 
-  </body>
+</body>
+
 </html>
